@@ -1,0 +1,12 @@
+Parameters to be given:
+
+Output file name
+Initial semi-major axis (AU) , eccentricity , stellar rotation period (days)
+Stellar mass (solar masses), radius (solar radius), coefficient of moment of inertia, relaxation factor (seconds)
+Planet mass (jupiter masses), radius (jupiter radius), coefficient of moment of inertia, relaxation factor (seconds)
+Braking factor multiplying the torque (1 for full forque, 0.1 for attenuated torque of late F stars and 0 for no braking)
+
+Output files: spin_orbit.txt file and stellar_rotation.txt files give outputs as below
+
+Time (Gyr) , Semi-major axis (AU) , eccentricity , Stellar rotation period (days) , Orbital period (days) - Until planet destruction only
+Time (Gyr) , Stellar rotation period (days) , Destruction flag for planet (0 for no destruction , 1 otherwise)
