@@ -8,3 +8,5 @@ The variables which are integrated in the code are:
 - Semi-major axis (Stellar and Planetary Tides);
 - Eccentricity (Stellar and Planetary Tides);
 - Stellar rotation (Stellar Tides and Magnetic Wind Braking of the stellar rotation rate, the latter interaction following https://adsabs.harvard.edu/full/1997A%26A...326.1023B).
+
+A file containing a more detailed description of the code (and some instructions on how to use it) will be added, as well as new scripts to automatically create plots of the results from numerical simulations.
